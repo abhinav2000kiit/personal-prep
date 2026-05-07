@@ -1,0 +1,28 @@
+/** Suggestion strings for the search-box autocomplete — scoped to this problem only. */
+
+export const SUGGESTIONS: readonly string[] = [
+  "react",
+  "react hooks",
+  "react useeffect",
+  "react usememo",
+  "react performance optimization",
+  "redux",
+  "redux toolkit",
+  "javascript",
+  "javascript closures",
+  "javascript event loop",
+  "javascript promises",
+  "typescript",
+  "typescript generics",
+  "node js",
+  "node js streams",
+  "html",
+  "html semantic tags",
+  "css",
+  "css flexbox",
+  "css grid",
+  "web performance",
+  "web vitals",
+  "frontend system design",
+  "machine coding interview",
+];
