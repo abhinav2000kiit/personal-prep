@@ -16,4 +16,10 @@ export const problems: ProblemDefinition[] = [
     path: "/problems/searchbox",
     Component: lazy(() => import("./search-box")),
   },
+  {
+    id: "dynamic-form-renderer",
+    title: "Dynamic Form Renderer",
+    path: "/problems/dynamic-form-renderer",
+    Component: lazy(() => import("./dynamic-form-renderer")),
+  },
 ];
