@@ -28,4 +28,10 @@ export const problems: ProblemDefinition[] = [
     path: "/problems/modal-popup",
     Component: lazy(() => import("./modal-popup")),
   },
+  {
+    id: "dynamic-price-update",
+    title: "Dynamic Price Update",
+    path: "/problems/dynamic-price-update",
+    Component: lazy(() => import("./dynamic-price-update")),
+  },
 ];
