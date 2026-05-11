@@ -34,4 +34,10 @@ export const problems: ProblemDefinition[] = [
     path: "/problems/dynamic-price-update",
     Component: lazy(() => import("./dynamic-price-update")),
   },
+  {
+    id: "filter-results",
+    title: "Filter Results",
+    path: "/problems/filter-results",
+    Component: lazy(() => import("./filter-results")),
+  },
 ];
