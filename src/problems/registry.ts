@@ -40,4 +40,10 @@ export const problems: ProblemDefinition[] = [
     path: "/problems/filter-results",
     Component: lazy(() => import("./filter-results")),
   },
+  {
+    id: "toast",
+    title: "Toast",
+    path: "/problems/toast",
+    Component: lazy(() => import("./toast")),
+  },
 ];
