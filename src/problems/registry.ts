@@ -46,4 +46,10 @@ export const problems: ProblemDefinition[] = [
     path: "/problems/toast",
     Component: lazy(() => import("./toast")),
   },
+  {
+    id: "service-based-toast",
+    title: "Service Based Toast",
+    path: "/problems/service-based-toast",
+    Component: lazy(() => import("./service-based-toast")),
+  },
 ];
